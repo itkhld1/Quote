@@ -7,7 +7,6 @@
 
 <p float="left">
   <img width="230" src="ScreenShots/Simulator Screenshot - Apple Watch Series 9 (45mm) - 2025-07-06 at 14.27.15.png">
-  <img width="230" src="ScreenShots/Simulator Screenshot - Apple Watch Series 9 (45mm) - 2025-07-06 at 14.06.44.png">
   <img width="230" src="ScreenShots/Simulator Screenshot - Apple Watch Series 9 (45mm) - 2025-07-06 at 14.25.36.png">
   <img width="230" src="ScreenShots/Simulator Screenshot - Apple Watch Series 9 (45mm) - 2025-07-06 at 14.25.41.png">
   <img width="230" src="ScreenShots/Simulator Screenshot - Apple Watch Series 9 (45mm) - 2025-07-06 at 14.25.54.png">
