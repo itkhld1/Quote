@@ -12,6 +12,12 @@
 		7747EF1B2E1807A500221929 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7747EF1A2E1807A500221929 /* ContentView.swift */; };
 		7747EF1D2E1807A600221929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7747EF1C2E1807A600221929 /* Assets.xcassets */; };
 		7747EF202E1807A600221929 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7747EF1F2E1807A600221929 /* Preview Assets.xcassets */; };
+		775447782E1A8E2100F8A578 /* SubmitQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775447732E1A8E2100F8A578 /* SubmitQuoteView.swift */; };
+		775447792E1A8E2100F8A578 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775447742E1A8E2100F8A578 /* Tabs.swift */; };
+		7754477A2E1A8E2100F8A578 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775447752E1A8E2100F8A578 /* Quotes.swift */; };
+		7754477B2E1A8E2100F8A578 /* Favoriests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775447762E1A8E2100F8A578 /* Favoriests.swift */; };
+		775447822E1A947800F8A578 /* MigaeSemibold-3zd2M.otf in Resources */ = {isa = PBXBuildFile; fileRef = 775447812E1A947800F8A578 /* MigaeSemibold-3zd2M.otf */; };
+		775447832E1A947800F8A578 /* MigaeSemibold-3zd2M.otf in Resources */ = {isa = PBXBuildFile; fileRef = 775447812E1A947800F8A578 /* MigaeSemibold-3zd2M.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		7747EF1A2E1807A500221929 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7747EF1C2E1807A600221929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7747EF1F2E1807A600221929 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		775447732E1A8E2100F8A578 /* SubmitQuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitQuoteView.swift; sourceTree = "<group>"; };
+		775447742E1A8E2100F8A578 /* Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		775447752E1A8E2100F8A578 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		775447762E1A8E2100F8A578 /* Favoriests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favoriests.swift; sourceTree = "<group>"; };
+		7754477D2E1A90D800F8A578 /* Quote-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Quote-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		775447812E1A947800F8A578 /* MigaeSemibold-3zd2M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MigaeSemibold-3zd2M.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 		7747EF062E1807A500221929 = {
 			isa = PBXGroup;
 			children = (
+				775447802E1A946A00F8A578 /* CustomFonts */,
 				7747EF172E1807A500221929 /* Quote Watch App */,
 				7747EF0E2E1807A500221929 /* Products */,
 			);
@@ -78,8 +91,13 @@
 		7747EF172E1807A500221929 /* Quote Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				7754477D2E1A90D800F8A578 /* Quote-Watch-App-Info.plist */,
 				7747EF182E1807A500221929 /* QuoteApp.swift */,
 				7747EF1A2E1807A500221929 /* ContentView.swift */,
+				775447762E1A8E2100F8A578 /* Favoriests.swift */,
+				775447752E1A8E2100F8A578 /* Quotes.swift */,
+				775447732E1A8E2100F8A578 /* SubmitQuoteView.swift */,
+				775447742E1A8E2100F8A578 /* Tabs.swift */,
 				7747EF1C2E1807A600221929 /* Assets.xcassets */,
 				7747EF1E2E1807A600221929 /* Preview Content */,
 			);
@@ -92,6 +110,14 @@
 				7747EF1F2E1807A600221929 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		775447802E1A946A00F8A578 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				775447812E1A947800F8A578 /* MigaeSemibold-3zd2M.otf */,
+			);
+			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775447822E1A947800F8A578 /* MigaeSemibold-3zd2M.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7747EF202E1807A600221929 /* Preview Assets.xcassets in Resources */,
+				775447832E1A947800F8A578 /* MigaeSemibold-3zd2M.otf in Resources */,
 				7747EF1D2E1807A600221929 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,7 +221,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7747EF1B2E1807A500221929 /* ContentView.swift in Sources */,
+				7754477B2E1A8E2100F8A578 /* Favoriests.swift in Sources */,
+				775447782E1A8E2100F8A578 /* SubmitQuoteView.swift in Sources */,
+				7754477A2E1A8E2100F8A578 /* Quotes.swift in Sources */,
 				7747EF192E1807A500221929 /* QuoteApp.swift in Sources */,
+				775447792E1A8E2100F8A578 /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +365,9 @@
 				DEVELOPMENT_TEAM = Z9697UVR8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quote-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Quote;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,7 +397,9 @@
 				DEVELOPMENT_TEAM = Z9697UVR8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quote-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Quote;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
